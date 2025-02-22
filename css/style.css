@@ -1,0 +1,50 @@
+html {
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    top: 0;;
+    height: 1000px;
+}
+/* Sticky top page cover RE-DO */
+.cover-div {
+    background-color: black;
+    color: white;
+    font-family: 'Rubik';
+    text-align: center;
+    border-bottom: solid white 2px;
+    margin: 0px 0px 0px 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+/* Container with Video and text */
+.video-container-div {
+    position: relative;
+}
+/* Video itself */
+.video-div {
+    position: static;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    filter: blur(5px);
+}
+/* Text over the video */
+.overlay-p {
+    position: absolute;
+    font-size: 32px;
+    top: 100;
+    padding: 0px 200px 0px 200px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+/* Cover header */
+.h1-cover {
+    /* DO NOT TOUCH THIS DIV */
+    margin: 0px 0px 0px 0px;
+}
